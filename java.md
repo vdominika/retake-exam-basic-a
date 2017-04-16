@@ -16,7 +16,7 @@
 # Tasks
 ## 1-3. Complete the following tasks: (~90 mins)
 - [Min-max difference](minmaxdiff/MinMaxDiff.java)
-- [Most common word](mostcommonword/MostCommonWord.java)
+- [Most common word](most-common-word/MostCommonWord.java)
 - [Library](library/Library.java)
 
 ### Acceptance criteria
