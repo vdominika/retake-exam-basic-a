@@ -1,4 +1,4 @@
-#EXAM: Programming Basics
+# EXAM: Programming Basics
 
 ### Getting Started
  - Fork this repository under your own account
