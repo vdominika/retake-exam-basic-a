@@ -16,7 +16,7 @@
 # Tasks
 ## 1-3. Complete the following tasks: (~90 mins)
 - [Min-max difference](minmaxdiff/minmaxdiff.py)
-- [Most common word](mostcommonword/mostcommonword.py)
+- [Most common word](most-common-word/mostcommonword.py)
 - [Library](library/library.py)
 
 ### Acceptance criteria
