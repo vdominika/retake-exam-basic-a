@@ -6,7 +6,7 @@
 # We should be able to add and remove books.
 # We should be able to query the favourite author (who has written the most books in the shelf)
 # We should be able to query the earliest and the latest published books.
-# Bookself should have a status() method whitch give us information about the number of books, the earliest and the latest released books, and the favourite author 
+# Bookself should have a method whitch give us information about the number of books, the earliest and the latest released books, and the favourite author 
    
 myshelf = BookShelf()
 print(myshelf)
@@ -19,7 +19,7 @@ myshelf.put("Frank Herbert", "Dune", 1965)
 myshelf.put("Frank Herbert", "The Dragon in the Sea", 1957)
 myshelf.remove("The Dragon in the Sea")
 
-print(myshelf.status())
+print(myshelf)
 # Should print out:
 # You have 3 books.
 # Earliest released: Frank Herbert : Dune (1965)

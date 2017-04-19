@@ -8,10 +8,10 @@ public class Library {
     // We should be able to add and remove books
     // We should be able to query the favourite author (who has written the most books in the shelf)
     // We should be able to query the earliest and the latest published books.
-    // Bookself should have a status() method which give us information about the number of books, the earliest and the latest released books, and the favourite author 
+    // Bookself should have a toString() method which give us information about the number of books, the earliest and the latest released books, and the favourite author 
    
     BookShelf myShelf = new BookShelf();
-    myShelf.status();
+    myShelf.toString();
     // Should print out:
     // You have no books here.
     
@@ -21,7 +21,7 @@ public class Library {
     myShelf.put("Frank Herbert", "The Dragon in the Sea", 1957);
     myShelf.remove("The Dragon in the Sea");
 
-    myShelf.status();
+    myShelf.toString();
     // Should print out:
     // You have 3 books.
     // Earliest released: Frank Herbert : Dune (1965)
