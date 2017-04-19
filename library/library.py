@@ -9,18 +9,18 @@
 # We should be able to query the latest published books.
 # Bookself should have a method whitch give us information about the number of books, the earliest and the latest released books, and the favourite author 
    
-myshelf = BookShelf()
-print(myshelf)
+my_shelf = BookShelf()
+print(my_shelf.books())
 # Should print out:
 # You have no books here.
     
-myshelf.put("Douglas Adams", "The Hitchhiker's Guide to the Galaxy", 1979)
-myshelf.put("Douglas Adams", "Mostly Harmless", 1992)
-myshelf.put("Frank Herbert", "Dune", 1965)
-myshelf.put("Frank Herbert", "The Dragon in the Sea", 1957)
-myshelf.remove("The Dragon in the Sea")
+my_shelf.put("Douglas Adams", "The Hitchhiker's Guide to the Galaxy", 1979)
+my_shelf.put("Douglas Adams", "Mostly Harmless", 1992)
+my_shelf.put("Frank Herbert", "Dune", 1965)
+my_shelf.put("Frank Herbert", "The Dragon in the Sea", 1957)
+my_shelf.remove("The Dragon in the Sea")
 
-print(myshelf)
+print(my_shelf.books())
 # Should print out:
 # You have 3 books.
 # Earliest released: Frank Herbert : Dune (1965)
