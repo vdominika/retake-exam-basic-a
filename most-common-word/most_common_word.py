@@ -5,3 +5,5 @@
 # No source provided
 # When the argument provided and the source is a file
 # count all words in the given file and print the most common 
+# ("cat", "CAT", "cat," "cat." are different words ) 
+

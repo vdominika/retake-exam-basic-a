@@ -28,13 +28,23 @@ The application is accepted if:
 - The code is clean, without unnecessary repetition, and with descriptive names [1p each]
 - You commit frequently with descriptive commit messages [1p]
 
-## 4. Question time! (~10 mins) [4p]
+## 4. Question time! (~10 mins) [3p]
 
-### What is encapsulation and why it is good for us? [2p]
+### How many constructors called when `myFoxi` initialized (and wich order) ?
+```python
+class Animal():
+	def __init__(self):
+		pass
+
+class Dog(Animal):
+	def __init__(self):
+		pass
+
+class Foxi(Dog):
+	def __init__(self):
+		pass
+
+my_foxi = Foxi()
+```
 #### Your answer:
 [add your answer here]   
-
-
-### What are getters/setters? When they are used? [2p]
-#### Your answer:
-[add your answer here]

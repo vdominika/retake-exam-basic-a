@@ -28,13 +28,21 @@ The application is accepted if:
 - The code is clean, without unnecessary repetition, and with descriptive names [1p each]
 - You commit frequently with descriptive commit messages [1p]
 
-## 4. Question time! (~10 mins) [4p]
+## 4. Question time! (~10 mins) [3p]
 
-### What is encapsulation and why it is good for us? [2p]
+### How many constructors called when `myFoxi` initialized (and wich order) ?
+```java
+class Animal {
+}
+
+class Dog extends Animal {
+}
+
+class Foxi extends Dog {
+	public static void main(String[] args) {
+		Foxi myFoxi = new Foxi;
+	}
+}
+```
 #### Your answer:
 [add your answer here]   
-
-
-### What are getters/setters? When they are used? [2p]
-#### Your answer:
-[add your answer here]
