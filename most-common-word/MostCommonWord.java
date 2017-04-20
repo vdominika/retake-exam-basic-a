@@ -3,8 +3,6 @@ public class MostCommonWord {
     // This should be a simple word counter which give us the most common string in a file
     // If ran from the command line without arguments it should print out the usage:
     // java MostCommonWord [source]
-    // When no argument is provided print out
-    // No source provided
     // When the argument provided and the source is a file
     // count all words in the given file and print the most common 
     // ("cat", "CAT", "cat," "cat." are different words ) 
